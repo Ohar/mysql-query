@@ -1,5 +1,8 @@
 # mysql-query
-NodeJS wrapper for MySQL query, based on “mysql” package
+
+NodeJS wrapper for MySQL query, based on [“mysql”](https://npmjs.org/package/mysql) package
+
+[![NPM](https://nodei.co/npm/mysql-query.png)](https://npmjs.org/package/mysql-query)
 
 # How to use
 
