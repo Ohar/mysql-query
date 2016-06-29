@@ -37,14 +37,18 @@ const mysqlQuery      = require('mysql-query'),
       mysqlConnection = require('./mysql-connection');
 
 function foo () {
-  const handler = rows => rows,
+  const resolveHandler = rows => rows,
+        rejectHandler = err => {
+            console.error('NOOOOOOO', err);
+            return err;
+        },
         query = `
           SELECT *
           FROM test 
           WHERE answer = 42
         `;
 
-  return mysqlQuery(mysqlConnection, query, handler)
+  return mysqlQuery(mysqlConnection, query, resolveHandler, rejectHandler)
     .then(rows => console.log);
 }
 
