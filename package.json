@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/Ohar/mysql-query/issues"
   },
-  "homepage": "https://github.com/Ohar/mysql-query#readme"
+  "homepage": "https://github.com/Ohar/mysql-query#readme",
+  "engines": {
+    "node": ">=6.0.0"
+  }
 }
