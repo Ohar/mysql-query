@@ -1,6 +1,6 @@
 {
   "name": "mysql-query",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "NodeJS wrapper for MySQL query, based on “mysql” package",
   "main": "mysql-query.js",
   "scripts": {
