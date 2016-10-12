@@ -1,6 +1,6 @@
 'use strict';
 
-function mysqlQuery (mySqlConnection, query, resolveHandler = () => true, rejectHandler = err => err) {
+function mysqlQuery (mySqlConnection, query, resolveHandler = rows => rows, rejectHandler = err => err) {
   return new Promise(
     (resolve, reject) => {
       mySqlConnection.query(
