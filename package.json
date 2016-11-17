@@ -14,7 +14,7 @@
     "mysql",
     "query"
   ],
-  "author": "Ohar <voke.commodus@gmail.com> (http://ohar.name)",
+  "author": "Ohar <code@ohar.name> (http://ohar.name)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Ohar/mysql-query/issues"
